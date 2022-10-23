@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    width: 300px;
+    height: auto;
+}
+
+.info img {
+    width: 200px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
