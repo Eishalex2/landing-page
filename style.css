@@ -132,3 +132,35 @@ li a:hover {
     font-weight: bold;
     font-size: 18px;
 }
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 12%;
+    border-radius: 10px;
+    padding: 3% 0;
+}
+
+.action .left h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action .left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action button {
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
