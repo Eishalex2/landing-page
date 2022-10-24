@@ -76,7 +76,32 @@ li a:hover {
     outline: none;
 }
 
-.info img {
+.pictures {
+    padding-bottom: 5%
+}
+
+.pictures h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info img{
     width: 200px;
     height: auto;
+    border-radius: 15px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
 }
