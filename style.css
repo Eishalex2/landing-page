@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10% 15px 15%;
+    padding: 15px 10% 15px 10%;
 }
 
 header .logo {
@@ -30,7 +30,8 @@ ul {
     gap: 20px;
 }
 
-li a {
+li a,
+.hero p {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -40,9 +41,39 @@ li a:hover {
     color: lightpink;
 }
 
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 5% 10% 8% 10%;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.hero .left {
+    margin-right: 70px;
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .hero img {
-    width: 300px;
+    width: 500px;
     height: auto;
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    margin-top: 15px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
 }
 
 .info img {
