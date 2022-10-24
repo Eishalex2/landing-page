@@ -88,7 +88,7 @@ li a:hover {
     padding: 2% 0;
 }
 
-.container {
+.pictures .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,4 +104,31 @@ li a:hover {
 .info {
     max-width: 200px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    gap: 15px;
+    margin: 5% 0;
+}
+
+.quote blockquote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote .author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
 }
